@@ -8,7 +8,7 @@ View the course [here](https://www.datawithdanny.com/courses/serious-sql).
 
 ## 📚 Table of Contents
 - Data Exploration
-  - Exercises: View my learning notes [here](https://github.com/katiehuangx/Serious-SQL/blob/main/Exercises%20in%20Data%20Exploration.md).
+  - Exercises: View my learning notes [here](https://github.com/oussou-dev/Serious_SQL//blob/main/Exercises%20in%20Data%20Exploration.md).
   - Health Analytics Mini Case Study: View the solution [here](https://github.com/katiehuangx/Serious-SQL/blob/main/Health%20Analytics%20Mini%20Case%20Study.md).
 - Marketing Analytics Case Study - **Ongoing**: View the solution [here](https://github.com/katiehuangx/Serious-SQL/blob/main/Marketing%20Analytics%20Case%20Study.md).
 - People Analytics Case Study
