@@ -114,6 +114,7 @@ SELECT
 FROM dvd_rentals.nicer_but_slower_film_list  
 GROUP BY price
 ORDER BY unique_fid
+-- limit 1 offset 2
 ````
 
 **How many unique country_id values exist in the dvd_rentals.city table?**
