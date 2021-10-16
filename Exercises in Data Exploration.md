@@ -232,6 +232,28 @@ WHERE measure = 'weight'
 GROUP BY measure_value
 ORDER BY frequency DESC;
 ````
+
+````sql
+-- ANOTHER SOLUTION
+  SELECT *, COUNT(*) AS freq
+  FROM health.user_logs
+  WHERE measure = 'weight'
+  GROUP BY 
+    id,
+    log_date,
+    measure,
+    measure_value,
+    systolic,
+    diastolic
+)
+SELECT measure_value, SUM(freq) AS total_freq
+FROM filter_1
+GROUP BY measure_value
+ORDER BY total_freq DESC
+-- LIMIT 10
+````
+
+
 **How many single duplicated rows exist when measure = 'blood_pressure' in the health.user_logs? How about the total number of duplicate records in the same table?**
 
 - **Single duplicated rows** means rows which have been duplicated at least once where **multiple duplicated rows** means the same value has been duplicated more than once.
